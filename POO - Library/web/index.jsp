@@ -17,16 +17,16 @@
         <div class="row justify-content-center main">
            <div class="col-md-3 client-div">
               <img src="images/client.png" class="image" alt="#">
-              <h2><a class="btn btn-info btn-lg" href="#">#</a></h2>
+              <h2><a class="btn btn-info btn-lg" href="#">Link</a></h2>
            </div>
            <div class=" col-md-3 manu-div">
               <img src="images/manu.png" class="image" alt="#">
-              <h2><a class="btn btn-info btn-lg" href="#">#</a></h2>
+              <h2><a class="btn btn-info btn-lg" href="#">Link</a></h2>
            </div>
         </div>
  
      </div><!--container-->
-     <%@include file="WEB-INF/jspf/footer.jspf" %>
+     <%@include file="WEB-INF/jspf/footer.jspf"%>
      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
