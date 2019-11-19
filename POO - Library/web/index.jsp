@@ -12,34 +12,42 @@
      <%@include file="WEB-INF/jspf/header.jspf" %>
      <%@include file="WEB-INF/jspf/background.jspf" %>
      <div class="container">
-        <div class="row justify-content-center main">
-          <table class="table table-dark">
+        <div class="row books">
+          <table class="table table-dark table-image">
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Capa</th>
+                <th scope="col">Título</th>
+                <th scope="col">Autor</th>
+                <th scope="col">Gênero</th>
+                <th scope="col">Editora</th>
+                <th scope="col">Situação</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td><img src="images/historia.jpg" class="img-fluid img-thumbnail" alt="Sheep" class="text-center"></td>
+                <td>Um grande amor </td>
+                <td>João de souza</td>
+                <td>Romance</td>
+                <td>ETT</td>
+                <td><a class="btn btn-success" href="#" role="button">Disponível</a></td>
               </tr>
               <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td><img src="images/fortaleza-digital.jpg" class="img-fluid img-thumbnail" alt="Sheep" class="text-center"></td>
+                <td>Fortaleza Digital</td>
+                <td>Dan Brown</td>
+                <td>Espionagem</td>
+                <td>Sextante</td>
+                <td><a class="btn btn-success" href="#" role="button">Disponível</a></td>
               </tr>
               <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
+                <td><img src="images/marley.jpg" class="img-fluid img-thumbnail" alt="Sheep" class="text-center"></td>
+                <td>Marley e Eu</td>
+                <td>Joe Grogan</td>
+                <td>Biografia</td>
+                <td>Prestígio</td>
+                <td><a class="btn btn-danger" href="#" role="button">Indisponível</a></td>
               </tr>
             </tbody>
           </table>

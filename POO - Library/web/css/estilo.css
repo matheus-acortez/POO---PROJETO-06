@@ -9,6 +9,10 @@
     margin: 0;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
 .text-brand{
     position:absolute; 
     top:20px; 
@@ -20,4 +24,14 @@
     background-image: url("../images/banner.jpg");
     height: 300px;
   
+}
+
+.books{
+    margin-top: 30px;
+}
+
+.table-image {
+  td, th {
+    vertical-align: middle;
+  }
 }
