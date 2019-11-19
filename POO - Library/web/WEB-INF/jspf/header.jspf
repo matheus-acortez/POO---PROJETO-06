@@ -6,27 +6,32 @@
         <title>Clientes e Fabricantes</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="home.jsp">
-                    <img src="../images/openlibrary-logo-tighter.svg">
-                    
-                </a>
+                <div class="row">
+                    <div class="">
+                        <a class="navbar-brand" href="home.jsp">
+                            <img src="../images/library-building-blue.png" class="brand d-inline-block">
+                        </a>
+                        <h2 class="text-brand">E-Library</h2>
+                    </div>
+                </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="index.jsp">Link <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="index.jsp">Categorias <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="customers.jsp">Link</a>
+                      <a class="nav-link" href="customers.jsp">Meus livros</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="manufacturers.jsp">Link</a>
+                      <a class="nav-link" href="manufacturers.jsp">Mais</a>
                     </li>
                   </ul>
                 </div>
